@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color: #23ecc1;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 470px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 6px; 
+ }
+ .main input[type='text'] {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    text-align: center;
+    padding: 4px 7px;
+    outline: none;
+    font-size: 800px;
+    border: 10px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+ }
+ 
+ .basic-functions input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #495250;
+    border-radius: 6px;
+    color: white;
+    flex: 1;
+    padding: 10px;
+    background-color: #b31313;
+ }
+ .basic-functions input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
+ .advanced-functions input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #495250;
+    border-radius: 6px;
+    color: white;
+    flex: 1;
+    padding: 10px;
+    background-color: #e0e0e0;
+ }
+ .advanced-functions input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
